@@ -18,41 +18,43 @@
     />
     <link rel="icon" href="./images/favicon.png" />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/mediaas.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
     <title>Omnifood - Never Cook Again!</title>
   </head>
   <body>
     <!-- HEADER & NAVBAR -->
-    <header class="header__container flex">
-      <a href="/">
-        <img
-          src="./images/omnifood-logo.png"
-          alt="Omnifood startup logo"
-          class="header__logo"
-        />
-      </a>
-      <nav class="navbar__menu">
-        <ul class="navbar__list flex">
-          <li class="navbar__item">
-            <a href="#how" class="navbar__link">How it Works</a>
-          </li>
-          <li class="navbar__item">
-            <a href="#meals" class="navbar__link">Meals</a>
-          </li>
-          <li class="navbar__item">
-            <a href="#testimonials" class="navbar__link">Testimonials</a>
-          </li>
-          <li class="navbar__item">
-            <a href="#pricing" class="navbar__link">Pricing</a>
-          </li>
-          <!-- NAVBAR CTA (CALL TO ACTION) -->
-          <li class="navbar__item">
-            <a href="#order" class="navbar__link navbar__cta border-rounded-9"
-              >Enjoy 1 Free Meal</a
-            >
-          </li>
-        </ul>
-      </nav>
+    <header class="header__container">
+      <div class="navbar__container flex">
+        <a href="/">
+          <img
+            src="./images/omnifood-logo.png"
+            alt="Omnifood startup logo"
+            class="header__logo"
+          />
+        </a>
+        <nav class="navbar__menu">
+          <ul class="navbar__list flex">
+            <li class="navbar__item">
+              <a href="#how" class="navbar__link">How it Works</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#meals" class="navbar__link">Meals</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#testimonials" class="navbar__link">Testimonials</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#pricing" class="navbar__link">Pricing</a>
+            </li>
+            <!-- NAVBAR CTA (CALL TO ACTION) -->
+            <li class="navbar__item">
+              <a href="#order" class="navbar__link navbar__cta border-rounded-9"
+                >Enjoy 1 Free Meal</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <!-- HERO -->
@@ -535,7 +537,9 @@
               </li>
             </ul>
             <div class="plan__signup">
-              <a href="#order" class="btn plan__btn border-rounded-9"
+              <a
+                href="#order"
+                class="btn plan__btn btn__starter border-rounded-9"
                 >Enroll Now</a
               >
             </div>
@@ -569,7 +573,9 @@
               </li>
             </ul>
             <div class="plan__signup">
-              <a href="#order" class="btn plan__btn border-rounded-9"
+              <a
+                href="#order"
+                class="btn plan__btn btn__complete border-rounded-9"
                 >Enroll Now</a
               >
             </div>

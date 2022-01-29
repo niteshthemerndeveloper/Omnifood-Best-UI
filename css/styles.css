@@ -110,7 +110,7 @@ img{
 /* =========== REUSABLE CLASSES =========== */
 
 .container{
-  max-width: 1200px;
+  max-width: 1200rem;
   padding: 0 3.2rem;
   margin: 0 auto;
 }
@@ -261,6 +261,9 @@ img{
 /* =========== HEADER & NAVBAR =========== */
 .header__container{
   background-color: var(--container-color-alt);
+}
+
+.navbar__container{
   justify-content: space-between;
   height: 9.6rem;
   padding: 0 4.8rem;
@@ -273,7 +276,7 @@ img{
 /* =========== NAVBAR & NAVIGATION =========== */
 
 .navbar__list{
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .navbar__link:link,
@@ -670,6 +673,18 @@ img{
 .plan__btn:hover,
 .plan__btn:active{
   background-color: var(--hover-color);
+  transform: translateY(-0.4rem);
+}
+
+.btn__starter:link,
+.btn__starter:visited{
+  background-color: rgba(207, 113, 31, 0.15);
+  color: var(--primary-color);
+}
+
+.btn__starter:hover,
+.btn__starter:active{
+  background-color: rgba(207, 113, 31, 0.3);
 }
 
 .plan__signup{
