@@ -12,31 +12,31 @@
 
 #### Navbar & Hero
 
-![Navbar and Hero](/other/omnifood-hero.png)
+![Navbar and Hero](./other/omnifood-hero.png)
 
 #### Featured In & How It Works
 
-![Featured In](/other/omnifood-how.png)
+![Featured In](./other/omnifood-how.png)
 
 #### Meals & Diet Plans 😋
 
-![Meals](/other/omnifood-meals.png)
+![Meals](./other/omnifood-meals.png)
 
 #### Testimonials
 
-![Testimonials](/other/omnifood-testimonials.png)
+![Testimonials](./other/omnifood-testimonials.png)
 
 #### Pricing Plans 💲
 
-![Pricing Plans](/other/omnifood-pricing.png)
+![Pricing Plans](./other/omnifood-pricing.png)
 
 #### Order Free Meal & CTA 🎯
 
-![Order Free Meal](/other/omnifood-cta.png)
+![Order Free Meal](./other/omnifood-cta.png)
 
 #### Footer
 
-![Footer](/other/omnifood-footer.png)
+![Footer](./other/omnifood-footer.png)
 
 I hope you enjoyed the project as much as we all do!
 
